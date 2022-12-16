@@ -1,0 +1,8 @@
+[Unit]
+Description=Service for script
+
+[Service]
+ExecStart=/home/mhchon/final/ttt.sh
+Restart=always
+User=mhchon
+Group=mhchon
